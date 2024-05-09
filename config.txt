@@ -1,0 +1,22 @@
+[Dcs]
+DcsWorldDirectory = "E:\\SteamLibrary\\steamapps\\common\\DCSWorld"               # Directory of DCS world game which must be set.
+MonitorNum = 2                  # Fighter cockpit virtual monitor number.
+
+# The following config items can use default.
+
+SavedGamesDcs = ""              # Saved Games/DCS directory. Empty means using default.
+MFCDWidth = 600                 # Resolution of MFCDs. Height and width are equal.
+MFCDFps = 60                    # MFCD frames per second.
+MFCDBrightness = 10
+MFCDSaturation = 50
+MFCDContrast = 0 
+
+[FighterCockpitServer]
+ListenPort = 9678               # Fighter cockpit server listen port
+CommandRate = 0.1               # Command refresh rate(unit: second).
+DataReceivePort = 9676
+SendCommandIp = 127.0.0.1
+SendCommandPort = 9677
+
+[Log]
+Enable = true
